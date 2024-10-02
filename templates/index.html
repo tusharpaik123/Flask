@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vigyaan</title>
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+    <style>
+      h1 {
+        text-align: center;
+        font-family: Roboto;
+        color: #000000;
+      }
+      #container {
+        max-width: 720px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      #content {
+        display: flex;          /* Use flexbox to create columns */
+        align-items: center;    /* Vertically align the content */
+        gap: 20px;              /* Add space between the image and text */
+      }
+      #content img {
+        order: 2;               /* Place image after the paragraph */
+        width: 150px;           /* Adjust image width as needed */
+        height: 150px;           /* Maintain aspect ratio */
+      }
+      #content p {
+        text-align: justify;
+        flex: 1;                /* Allow the paragraph to take up remaining space */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Real-time Enemy</h1>
+      <h1>Enemy Detection and Localization</h1>
+      <div id="content">
+        <p>
+          This project focuses on developing a deep learning-powered system for real-time enemy detection and localization on the battlefield. The modern battlefield's complexity and rapidly changing conditions make traditional methods like radar and human observation insufficient for accurate and timely information. The proposed system uses AI to analyze images from sources like drone footage and camera feeds to identify enemies, vehicles, and weapons.
+        </p>
+        <img src="static/rhett-noonan-799IZNkVopA-unsplash.jpg" alt="Battlefield Image">
+      </div>
+      <p>
+        Key Features:
+      </p>
+      <ul style="text-align: left;">
+        <li>Enemy Detection: Detect and classify enemy forces and equipment.</li>
+        <li>Real-time Processing: Immediate analysis of visual data for quick feedback to soldiers.</li>
+        <li>Accurate Localization: Pinpoints enemy positions to enhance situational awareness.</li>
+      </ul>
+      <p>
+        Future Enhancements include multi-modal integration (using thermal and LiDAR data), adaptive learning (systems adapting to changing battlefield conditions), and expanding the technology into other areas like disaster response or urban security.
+      </p>
+      <p>
+        The project addresses limitations of traditional methods, providing a tactical advantage in modern warfare.
+      </p>
+    </div>
+  </body>
+</html>
+
+
